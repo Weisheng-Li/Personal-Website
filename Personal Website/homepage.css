@@ -1,0 +1,47 @@
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* hex code for dark: 41,43,44; */
+.bg-custom {
+  background-color: rgba(41,43,44,0.5);
+}
+
+img.resize {
+    width:  1600px; /* you can use % */
+    height: auto;
+}
+
+body {
+  background-color: #374757;
+}
+
+.top_image {
+  background-image: url("homepage_bg.jpg");
+  background-size: 1600px auto;
+}
+
+.top_text {
+  padding: 7rem 10rem;
+}
+
+@media (max-width: 576px) {
+  .top_text {
+    padding: 7rem 0;
+  }
+
+  .responsive_text {
+    font-size: 4em;
+  }
+
+}
+
+hr {  
+  height: 1px;
+  width: 50%;
+  border: 0; 
+  border-top: 1px solid #fff;
+  margin: 1em 0; padding: 0; 
+}
+
